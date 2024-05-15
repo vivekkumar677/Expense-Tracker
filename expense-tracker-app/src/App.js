@@ -1,10 +1,11 @@
-
-import './App.css';
-import ExpenceTracker from './components/ExpenceTracker/ExpenceTracker';
+import Home from './pages/Home/Home';
+import {SnackbarProvider} from 'notistack';
 
 function App() {
   return (
-    <ExpenceTracker />
+    <SnackbarProvider>
+      <Home />
+    </SnackbarProvider>
   );
 }
 
