@@ -1,0 +1,35 @@
+.card {
+    background-color: var(--secondary-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .cardTitle {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+  .cardTitle span {
+    font-weight: 700;
+  }
+  .success {
+    color: #9dff5b;
+  }
+  .failure {
+    color: #f4bb4a;
+  }
+  @media (max-width: 767px) {
+    .card {
+      padding: 35px 10px;
+    }
+    .cardTitle {
+      font-size: 24px;
+    }
+  }
+  
